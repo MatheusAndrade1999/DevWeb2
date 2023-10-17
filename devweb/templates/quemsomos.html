@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-        <link rel="stylesheet" href="{{url_for('static', filename='./style.css')}}">
-    <title>Quem Somos</title>
-    <header>
-        <img src="{{url_for('static', filename='./imagens/logo.png')}}" alt="Logo" class="logo">
-        <a href="/" class="menu">Home</a>
-        <a href="/quemsomos" class="menu">Quem somos</a>
-        <a href="/contato" class="menu">Contato</a>
-    </header>
-</head>
+{% extends "base.html" %}
+{%block main%}
 <body>
     <style> 
         body{
@@ -62,9 +50,5 @@
         ut sed nulla recusandae repudiandae maxime voluptatem quis, eius autem quibusdam
         architecto dolor corrupti! Itaque, repudiandae laborum.
     </p>
-
-    <footer>
-        Todos os direitos reservados
-    </footer>
 </body>
-</html>
+{%endblock%}

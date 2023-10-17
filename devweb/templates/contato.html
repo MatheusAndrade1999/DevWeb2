@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{url_for('static', filename='./style.css')}}">
-    <title>Contato</title>
-    <header>
-        <img src="{{url_for('static', filename='./imagens/logo.png')}}" alt="Logo" class="logo">
-        <a href="/" class="menu">Home</a>
-        <a href="/quemsomos" class="menu">Quem somos</a>
-        <a href="/contato" class="menu">Contato</a>
-    </header>
-</head>
-<body>
-    <style> 
-        body{
-            background-image: url(/imagens/fundo2.png);
-            align-content: center;
-        }
-    </style>
+{% extends "base.html" %}
+{%block main%}
+<body background="C:\Users\Gabriela Tediole\devweb\DevWeb2\devweb\static\imagens\fundo2.png">
+    
     <h2>
         Entre em contato:
     </h2>
@@ -28,7 +11,7 @@
         perferendis est ex sapiente ipsum. Quaerat, molestias distinctio! 
         Molestias necessitatibus sequi nam! Quas?
     </p>
-    <form action="/index.html">
+    <form action="/" method="GET" >
         <label for="fname">Seu e-mail:</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Assunto:</label><br>
@@ -38,8 +21,6 @@
         <br>
         <input type="submit" value="Enviar">
       </form> 
-      <footer>
-        Todos os direitos reservados
-      </footer>
+      
 </body>
-</html>
+{%endblock%}

@@ -6,6 +6,8 @@ body {
     align-content: center;
 }
 a {
+    text-decoration: none;
+    color: black;
     text-align: right;
     display: flex;
     margin-right: 15%;
