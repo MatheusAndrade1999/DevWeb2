@@ -62,3 +62,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+.body_index {
+    background: url(../static/imagens/fundo.png);
+}
