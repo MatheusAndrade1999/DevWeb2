@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static', filename='./style.css')}}">
-    <title>Desafio2</title>
+    <title>CustomLife</title>
 </head>
 <body>
     <header>
         <img src="{{url_for('static', filename='./imagens/logo.png')}}" alt="Logo" class="logo">
             <a href="/" class="menu">Home</a>
-            <a href="/quemsomos" class="menu">Quem somos</a>
-            <a href="/contato" class="menu">Contato</a>
+            <a href="/suzuki" class="menu">Suzuki</a>
+            <a href="/honda" class="menu">Honda</a>
+            <a href="/yamaha" class="menu">Yamaha</a>
+            
+
     </header>   
     {% block main %}
         {% endblock %}
