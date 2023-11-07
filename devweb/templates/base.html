@@ -7,13 +7,16 @@
     <title>CustomLife</title>
 </head>
 <body>
-    <header>
-        <img src="{{url_for('static', filename='')}}" alt="Logo" class="logo">
-            <a href="/" class="menu">Home</a>
-            <a href="/suzuki" class="menu">Suzuki</a>
-            <a href="/honda" class="menu">Honda</a>
-            <a href="/yamaha" class="menu">Yamaha</a>
-            
+    <header class="menu">
+        <div class="logo">
+            <img src="../static/imagens/logomoto.png" alt="Logo" class="logo" width="100px" height="100px">
+        </div>
+        <div class="link_menu">
+            <a href="/" >Home</a>
+            <a href="/suzuki" >Suzuki</a>
+            <a href="/honda" >Honda</a>
+            <a href="/yamaha" >Yamaha</a>
+        </div>    
 
     </header>   
     {% block main %}
