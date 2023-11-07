@@ -1,25 +1,33 @@
 {% extends "base.html" %}
-    {%block main%}
-        <body class="body_index">
-            <img src="{{url_for('static', filename='./imagens/capa.png')}}"  alt="UNES" class="capa" >
-                <h2>
-                    Sobre a universidade
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Est corporis beatae doloribus quo illo, voluptas reiciendis
-                    eos sunt ea suscipit omnis praesentium. Quam officia, 
-                    totam quis ex deleniti nobis dignissimos.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat obcaecati 
-                    tempora, quis beatae, laboriosam harum mollitia dolor, quisquam necessitatibus
-                    eveniet doloribus provident veritatis non iusto architecto consectetur a ipsum. 
-                    Repellat.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, 
-                    natus repellat in soluta dolore ipsa recusandae impedit temporibus, 
-                    uam praesentium commodi quae necessitatibus ducimus quasi esse quod
-                    voluptates cumque blanditiis!
-                </p>
+{%block main%}
+
+<body>
+        <div class="container">
+          <div>
+            <div class="content">
+              <h2>Intruder</h2>
+              <span>125cc Suzuki</span>
+            </div>
+          </div>
+          <div>
+            <div class="content">
+              <h2>Shadow</h2>
+              <span>600cc Honda</span>
+            </div>
+          </div>
+          <div>
+            <div class="content">
+              <h2>Virago</h2>
+              <span>250cc Yamaha</span>
+            </div>
+          </div>
+          <div>
+            <div class="content">
+              <h2>Lisa Boley</h2>
+              <span>Marketing Coordinator</span>
+            </div>
+          </div>
+        </div>
+  
 </body>
-    {%endblock%}
+{% endblock}
