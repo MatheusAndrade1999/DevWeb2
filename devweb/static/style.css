@@ -13,6 +13,19 @@ footer {
     font-size: 18px;
     background-color: #383f5d;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #0a0316;
+  height: 8vh;
+}
+
+main{
+  background: url("fundo.png");
+}
+
 /* Classes */
 .menu{
     display: flex;
@@ -40,24 +53,15 @@ footer {
     text-align: center;
     gap: 20px;
     padding-bottom: 2.75%;
-    
-
-
+}
+.link_menu li{
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 }
 .logo {
     display: flex;
     margin-left: 0%;
     margin-right: 75%;
 }
-
-footer{
-    color: white;
-    background-color: black;
-    width: 100%;
-    height: 10%;
-}
-
-
 
 .index_body {
   min-height: 100vh;
